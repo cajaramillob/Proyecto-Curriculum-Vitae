@@ -1,0 +1,88 @@
+body {
+    background-color: #E5E5E5;
+    font-family: 'montserrat', 'arial';
+}
+
+li {
+
+    line-height: 24px;
+}
+
+/* Contenido Principal*/
+.contenedor-principal {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    width: 1200px;
+    margin: 40px auto;
+}
+
+/*Informacion general*/
+.descripcion {}
+
+.descripcion-profesion {
+    font-size: 14px;
+    font-weight: 700px;
+}
+
+.proyectos {}
+
+.experiencia-laboral {}
+
+.educacion {}
+
+/*Información Lateral */
+.informacion-lateral {
+    padding: 40px 0;
+    background-color: #1E2939;
+}
+
+.titulo-lateral {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 50px;
+}
+
+.contacto,
+.habilidades-tecnologicas,
+.habilidades-blandas {
+    margin-left: 40px;
+}
+
+/* Sección de contacto*/
+.tipo-contacto {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 5px;
+}
+
+.contacto-info {
+    color: rgb(177, 177, 177);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/*Seccion de Lista*/
+.lista-lateral {
+    padding-left: 17px;
+}
+
+.lista-lateral>li {
+    color: #FB6D3A;
+}
+
+.elemento-lista-lareal {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
